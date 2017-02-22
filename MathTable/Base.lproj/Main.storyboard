@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dij-uE-dtR">
+                                <rect key="frame" x="14" y="79" width="566" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8wG-rF-OMe"/>
+                                    <constraint firstAttribute="width" constant="566" id="YKP-y5-zey"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EkA-a5-Lfl">
+                                <rect key="frame" x="14" y="250" width="566" height="330"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.3621460729" green="1" blue="0.34230816629999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="330" id="CQY-16-NUV"/>
+                                    <constraint firstAttribute="width" constant="566" id="paB-3s-MJp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wec-7H-xGM">
+                                <rect key="frame" x="260" y="177" width="92" height="34"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.30513544840000001" green="1" blue="0.89714869750000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="yxe-Vb-jOM"/>
+                                </constraints>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mTJ-GK-ibX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dij-uE-dtR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="59" id="HCe-FW-3Le"/>
+                            <constraint firstItem="EkA-a5-Lfl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-6" id="ITs-eA-hPC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EkA-a5-Lfl" secondAttribute="bottom" constant="20" id="Zbk-Tp-ghX"/>
+                            <constraint firstItem="dij-uE-dtR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-6" id="eQX-3y-ADA"/>
+                            <constraint firstItem="wec-7H-xGM" firstAttribute="top" secondItem="dij-uE-dtR" secondAttribute="bottom" constant="68" id="kpR-Jr-kc9"/>
+                            <constraint firstItem="EkA-a5-Lfl" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="vUD-hb-RDg"/>
+                            <constraint firstItem="wec-7H-xGM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yLF-Mc-cN7"/>
+                            <constraint firstItem="dij-uE-dtR" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="zL7-i7-UbA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="numbertf" destination="dij-uE-dtR" id="YzB-Pk-RJJ"/>
+                        <outlet property="result" destination="EkA-a5-Lfl" id="bC0-b9-881"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="431" y="295"/>
+        </scene>
+    </scenes>
+</document>

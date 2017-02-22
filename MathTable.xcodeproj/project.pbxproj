@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		547DA0331D807A8000CE6894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 547DA0321D807A8000CE6894 /* main.m */; };
+		547DA0361D807A8000CE6894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 547DA0351D807A8000CE6894 /* AppDelegate.m */; };
+		547DA0391D807A8000CE6894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547DA0381D807A8000CE6894 /* ViewController.m */; };
+		547DA03C1D807A8000CE6894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547DA03A1D807A8000CE6894 /* Main.storyboard */; };
+		547DA03E1D807A8000CE6894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547DA03D1D807A8000CE6894 /* Assets.xcassets */; };
+		547DA0411D807A8000CE6894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547DA03F1D807A8000CE6894 /* LaunchScreen.storyboard */; };
+		547DA04C1D807A8000CE6894 /* MathTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 547DA04B1D807A8000CE6894 /* MathTableTests.m */; };
+		547DA0571D807A8100CE6894 /* MathTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 547DA0561D807A8100CE6894 /* MathTableUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		547DA0481D807A8000CE6894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 547DA0261D807A8000CE6894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547DA02D1D807A8000CE6894;
+			remoteInfo = MathTable;
+		};
+		547DA0531D807A8100CE6894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 547DA0261D807A8000CE6894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547DA02D1D807A8000CE6894;
+			remoteInfo = MathTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		547DA02E1D807A8000CE6894 /* MathTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		547DA0321D807A8000CE6894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		547DA0341D807A8000CE6894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		547DA0351D807A8000CE6894 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		547DA0371D807A8000CE6894 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		547DA0381D807A8000CE6894 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		547DA03B1D807A8000CE6894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		547DA03D1D807A8000CE6894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547DA0401D807A8000CE6894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		547DA0421D807A8000CE6894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547DA0471D807A8000CE6894 /* MathTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		547DA04B1D807A8000CE6894 /* MathTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathTableTests.m; sourceTree = "<group>"; };
+		547DA04D1D807A8100CE6894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547DA0521D807A8100CE6894 /* MathTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		547DA0561D807A8100CE6894 /* MathTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathTableUITests.m; sourceTree = "<group>"; };
+		547DA0581D807A8100CE6894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547DA02B1D807A8000CE6894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547DA0441D807A8000CE6894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547DA04F1D807A8100CE6894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		547DA0251D807A8000CE6894 = {
+			isa = PBXGroup;
+			children = (
+				547DA0301D807A8000CE6894 /* MathTable */,
+				547DA04A1D807A8000CE6894 /* MathTableTests */,
+				547DA0551D807A8100CE6894 /* MathTableUITests */,
+				547DA02F1D807A8000CE6894 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		547DA02F1D807A8000CE6894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547DA02E1D807A8000CE6894 /* MathTable.app */,
+				547DA0471D807A8000CE6894 /* MathTableTests.xctest */,
+				547DA0521D807A8100CE6894 /* MathTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547DA0301D807A8000CE6894 /* MathTable */ = {
+			isa = PBXGroup;
+			children = (
+				547DA0341D807A8000CE6894 /* AppDelegate.h */,
+				547DA0351D807A8000CE6894 /* AppDelegate.m */,
+				547DA0371D807A8000CE6894 /* ViewController.h */,
+				547DA0381D807A8000CE6894 /* ViewController.m */,
+				547DA03A1D807A8000CE6894 /* Main.storyboard */,
+				547DA03D1D807A8000CE6894 /* Assets.xcassets */,
+				547DA03F1D807A8000CE6894 /* LaunchScreen.storyboard */,
+				547DA0421D807A8000CE6894 /* Info.plist */,
+				547DA0311D807A8000CE6894 /* Supporting Files */,
+			);
+			path = MathTable;
+			sourceTree = "<group>";
+		};
+		547DA0311D807A8000CE6894 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				547DA0321D807A8000CE6894 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		547DA04A1D807A8000CE6894 /* MathTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				547DA04B1D807A8000CE6894 /* MathTableTests.m */,
+				547DA04D1D807A8100CE6894 /* Info.plist */,
+			);
+			path = MathTableTests;
+			sourceTree = "<group>";
+		};
+		547DA0551D807A8100CE6894 /* MathTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				547DA0561D807A8100CE6894 /* MathTableUITests.m */,
+				547DA0581D807A8100CE6894 /* Info.plist */,
+			);
+			path = MathTableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547DA02D1D807A8000CE6894 /* MathTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547DA05B1D807A8100CE6894 /* Build configuration list for PBXNativeTarget "MathTable" */;
+			buildPhases = (
+				547DA02A1D807A8000CE6894 /* Sources */,
+				547DA02B1D807A8000CE6894 /* Frameworks */,
+				547DA02C1D807A8000CE6894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathTable;
+			productName = MathTable;
+			productReference = 547DA02E1D807A8000CE6894 /* MathTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		547DA0461D807A8000CE6894 /* MathTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547DA05E1D807A8100CE6894 /* Build configuration list for PBXNativeTarget "MathTableTests" */;
+			buildPhases = (
+				547DA0431D807A8000CE6894 /* Sources */,
+				547DA0441D807A8000CE6894 /* Frameworks */,
+				547DA0451D807A8000CE6894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547DA0491D807A8000CE6894 /* PBXTargetDependency */,
+			);
+			name = MathTableTests;
+			productName = MathTableTests;
+			productReference = 547DA0471D807A8000CE6894 /* MathTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		547DA0511D807A8100CE6894 /* MathTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547DA0611D807A8100CE6894 /* Build configuration list for PBXNativeTarget "MathTableUITests" */;
+			buildPhases = (
+				547DA04E1D807A8100CE6894 /* Sources */,
+				547DA04F1D807A8100CE6894 /* Frameworks */,
+				547DA0501D807A8100CE6894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547DA0541D807A8100CE6894 /* PBXTargetDependency */,
+			);
+			name = MathTableUITests;
+			productName = MathTableUITests;
+			productReference = 547DA0521D807A8100CE6894 /* MathTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547DA0261D807A8000CE6894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = chaitanya;
+				TargetAttributes = {
+					547DA02D1D807A8000CE6894 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					547DA0461D807A8000CE6894 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 547DA02D1D807A8000CE6894;
+					};
+					547DA0511D807A8100CE6894 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 547DA02D1D807A8000CE6894;
+					};
+				};
+			};
+			buildConfigurationList = 547DA0291D807A8000CE6894 /* Build configuration list for PBXProject "MathTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 547DA0251D807A8000CE6894;
+			productRefGroup = 547DA02F1D807A8000CE6894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547DA02D1D807A8000CE6894 /* MathTable */,
+				547DA0461D807A8000CE6894 /* MathTableTests */,
+				547DA0511D807A8100CE6894 /* MathTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547DA02C1D807A8000CE6894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547DA0411D807A8000CE6894 /* LaunchScreen.storyboard in Resources */,
+				547DA03E1D807A8000CE6894 /* Assets.xcassets in Resources */,
+				547DA03C1D807A8000CE6894 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547DA0451D807A8000CE6894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547DA0501D807A8100CE6894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547DA02A1D807A8000CE6894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547DA0391D807A8000CE6894 /* ViewController.m in Sources */,
+				547DA0361D807A8000CE6894 /* AppDelegate.m in Sources */,
+				547DA0331D807A8000CE6894 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547DA0431D807A8000CE6894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547DA04C1D807A8000CE6894 /* MathTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547DA04E1D807A8100CE6894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547DA0571D807A8100CE6894 /* MathTableUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		547DA0491D807A8000CE6894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547DA02D1D807A8000CE6894 /* MathTable */;
+			targetProxy = 547DA0481D807A8000CE6894 /* PBXContainerItemProxy */;
+		};
+		547DA0541D807A8100CE6894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547DA02D1D807A8000CE6894 /* MathTable */;
+			targetProxy = 547DA0531D807A8100CE6894 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		547DA03A1D807A8000CE6894 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547DA03B1D807A8000CE6894 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		547DA03F1D807A8000CE6894 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547DA0401D807A8000CE6894 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		547DA0591D807A8100CE6894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		547DA05A1D807A8100CE6894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		547DA05C1D807A8100CE6894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MathTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Neo-Rays.MathTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		547DA05D1D807A8100CE6894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MathTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Neo-Rays.MathTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		547DA05F1D807A8100CE6894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MathTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Neo-Rays.MathTableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathTable.app/MathTable";
+			};
+			name = Debug;
+		};
+		547DA0601D807A8100CE6894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MathTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Neo-Rays.MathTableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathTable.app/MathTable";
+			};
+			name = Release;
+		};
+		547DA0621D807A8100CE6894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MathTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Neo-Rays.MathTableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MathTable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		547DA0631D807A8100CE6894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MathTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Neo-Rays.MathTableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MathTable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547DA0291D807A8000CE6894 /* Build configuration list for PBXProject "MathTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547DA0591D807A8100CE6894 /* Debug */,
+				547DA05A1D807A8100CE6894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547DA05B1D807A8100CE6894 /* Build configuration list for PBXNativeTarget "MathTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547DA05C1D807A8100CE6894 /* Debug */,
+				547DA05D1D807A8100CE6894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		547DA05E1D807A8100CE6894 /* Build configuration list for PBXNativeTarget "MathTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547DA05F1D807A8100CE6894 /* Debug */,
+				547DA0601D807A8100CE6894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		547DA0611D807A8100CE6894 /* Build configuration list for PBXNativeTarget "MathTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547DA0621D807A8100CE6894 /* Debug */,
+				547DA0631D807A8100CE6894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 547DA0261D807A8000CE6894 /* Project object */;
+}
